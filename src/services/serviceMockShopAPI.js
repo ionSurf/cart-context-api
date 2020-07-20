@@ -2,13 +2,13 @@ import { jwtAuthHeader } from '../helpers';
 //import { productsURI } from '../constants';
 import { authService } from '.';
 
-const baseURL = 'https://my-json-server.typicode.com/jubs16/Products/';
+const baseURL = 'https://my-json-server.typicode.com/ionsurf/cart-context-api/';
 const productsURI = 'products/'
 
 export const getAll = _ => {
     const requestOptions = {
         method: 'GET',
-        headers: jwtAuthHeader
+        //headers: jwtAuthHeader
     }
     return fetch(`${baseURL + productsURI}`, requestOptions).then( handleResponse );
 }

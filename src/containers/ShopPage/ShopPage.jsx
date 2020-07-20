@@ -8,16 +8,21 @@ class ShopPage extends Component {
         super(props);
 
         this.state = {
-            productList: []
+            productsList: [], //this.context.productsList
+            isLoading: true,
         }
     }
 
-    componentDidMount() {
-        this.context.fetchProducts();
+    async componentDidMount() {
+        await this.context.fetchProducts();
+        this.setState({
+            productsList: this.context.productsList,
+            isLoading: false,
+        }); console.log( this.state, this.context );
     }
 
-    renderList() {
-        return this.state.productList.map( (product, i) => 
+    renderList() { //console.log(this.state);
+        return this.state.productsList.map( (product, i) => 
         <ProductListItem
             key={i}
             keyIndex={i}
@@ -28,15 +33,23 @@ class ShopPage extends Component {
         );
     }
 
-    render() {
-        return (
-            <div>
+    renderLoading = () => (
+        <div>
+            Loading...
+        </div>
+    )
+
+    renderLoaded = () => (
+        <div>
             <Header />
-                <div className="ProductList row"> 
-                {this.renderList()}
+                <div className="productsList row"> 
+                    {this.renderList()}
                 </div>
             </div>
-        );
+    )
+
+    render() {
+        return this.state.isLoading ? this.renderLoading() : this.renderLoaded()
     }
 }
 

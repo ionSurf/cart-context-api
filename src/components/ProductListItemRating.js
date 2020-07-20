@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const ProductListItemRating = rating => {
+export const ProductListItemRating = ({rating}) => {
     let starsRating = '';
     let i = 0;
     while ( i < 5 ) {
@@ -9,9 +9,10 @@ export const ProductListItemRating = rating => {
         } else {
             starsRating += '&#9734; '
         }
+        ++i;
     }
     return (
-        <small class="text-muted">
+        <small className="text-muted">
             {starsRating}
         </small>
     )

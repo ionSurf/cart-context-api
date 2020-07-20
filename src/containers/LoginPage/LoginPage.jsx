@@ -29,14 +29,14 @@ class LoginPage extends Component {
         })
     }
 
-    handleSubmit= e => { console.log(this.context);
+    handleSubmit= e => { //console.log(this.context);
         e.preventDefault();
         this.setState({
             submitted: true
         });
         const {username, password} = this.state;
         if ( username && password ) {
-            console.log('calling on context')
+            //console.log('calling on context')
             this.context.signIn( username, password );
         }
     }

@@ -7,7 +7,7 @@ export const PrivateRoute = ({ component: Component, ...rest }) => (
         {({ isUserLoggedIn }) => (
             <Route
                 render={(props) => {
-                    console.log(props, rest)
+                    //console.log(props, rest)
                     return isUserLoggedIn ? <Component {...props} /> : <Redirect to="/login" />
                 }}
                 {...rest}

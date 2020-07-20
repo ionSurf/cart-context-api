@@ -8,7 +8,7 @@ import { history } from '../helpers';
 import * as authService from '../services/serviceMockJWTAuth';
 
 /** ShopContext API dependencies */
-import * as shopAPIService from '../services/serviceShopAPI';
+import * as shopAPIService from '../services/serviceMockShopAPI';
 
 class GlobalContext extends Component {
     constructor(props) {

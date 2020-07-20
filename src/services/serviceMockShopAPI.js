@@ -1,8 +1,9 @@
 import { jwtAuthHeader } from '../helpers';
-import { productsURI } from '../constants';
+//import { productsURI } from '../constants';
 import { authService } from '.';
 
-const baseURL = process.env.REACT_APP_API_URL;
+const baseURL = 'https://my-json-server.typicode.com/jubs16/Products/';
+const productsURI = 'products/'
 
 export const getAll = _ => {
     const requestOptions = {

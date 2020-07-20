@@ -1,6 +1,7 @@
 {
   "products": [
     {
+      "id": "8f90e91b-f1cd-45e3-810e-8ce33cd8f86d",
       "imgUrl": "https://image.shutterstock.com/z/stock-photo-pair-of-white-sneakers-isolated-on-white-background-sport-shoes-712448377.jpg",
       "title": "Sport Shoes",
       "description": "Lorem ipsum",
@@ -8,6 +9,7 @@
       "price": 110
     },
     {
+      "id": "81185694-6cee-4148-9198-de304be918fa",
       "imgUrl": "https://image.shutterstock.com/z/stock-photo-vintage-red-shoes-on-white-background-92008067.jpg",
       "title": "Red SNEAKER",
       "description": "Lorem ipsum",
@@ -15,6 +17,7 @@
       "price": 91
     },
     {
+      "id": "4ba6f179-4104-4db2-be0d-9151ac74e9bf",
       "imgUrl": "https://image.shutterstock.com/z/stock-photo-pink-and-black-sport-woman-shoes-isolated-on-white-background-709418083.jpg",
       "title": "Sport Shoes Women",
       "description": "Lorem ipsum",
@@ -22,6 +25,7 @@
       "price": 94
     },
     {
+      "id": "47c9146e-a214-482f-b2d7-bb5b97524f35",
       "imgUrl": "https://image.shutterstock.com/z/stock-photo-children-s-autumn-or-winter-fashion-boots-isolated-on-white-background-708900334.jpg",
       "title": "Winter boots children",
       "description": "Lorem ipsum",
@@ -29,6 +33,7 @@
       "price": 143
     },
     {
+      "id": "2e83eb45-7f7c-4daf-8ddc-b394bada8f5d",
       "imgUrl": "https://image.shutterstock.com/z/stock-photo-bangkok-thailand-january-onitsuka-tiger-asics-gel-lyte-iii-on-january-in-bangkok-292088969.jpg",
       "title": "Sports shoes Red-White",
       "description": "Lorem ipsum",
@@ -36,6 +41,7 @@
       "price": 150
     },
     {
+      "id": "1fe9db0c-63b2-48c8-ae58-4e7f0d09c28b",
       "imgUrl": "https://image.shutterstock.com/z/stock-photo-leather-shoes-isolated-on-white-background-including-clipping-path-216565609.jpg",
       "title": "Black leather shoes",
       "description": "Lorem ipsum",
@@ -43,6 +49,7 @@
       "price": 250
     },
     {
+      "id": "40599b7c-a738-4304-953c-0cbf6eb78a80",
       "imgUrl": "https://image.shutterstock.com/z/stock-photo-casual-shoes-on-white-background-included-clipping-path-667459072.jpg",
       "title": "Shoes Canvas",
       "description": "Lorem ipsum",
@@ -50,6 +57,7 @@
       "price": 50
     },
     {
+      "id": "94a38a81-7b1e-4e2c-89be-9c16302cb217",
       "imgUrl": "https://image.shutterstock.com/z/stock-photo-white-sneakers-on-white-background-including-clipping-path-1100736923.jpg",
       "title": "Shoes White",
       "description": "Lorem ipsum",
@@ -57,6 +65,7 @@
       "price": 85
     },
     {
+      "id": "df89215f-db15-4ef0-9dea-eadc6054c095",
       "imgUrl": "https://image.shutterstock.com/z/stock-photo-yellow-sneakers-15066415.jpg",
       "title": "Sneakers Yellow",
       "description": "Lorem ipsum",
